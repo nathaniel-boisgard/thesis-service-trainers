@@ -1,0 +1,8 @@
+{
+  "pipeline": ["nlp_spacy", "tokenizer_spacy", "intent_featurizer_spacy", "ner_crf", "ner_synonyms", "intent_classifier_sklearn"],
+  "path" : "./projects",
+  "data" : "./data/examples/rasa/demo-rasa.json",
+  "language":"en",
+  "num_threads":1
+}
+
